@@ -7,7 +7,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Globe Trotting a Travel Agency Category Flat Bootstrap Responsive Website Template | Home :: w3layouts</title>
+	<title>Dezplane</title>
 	<!-- for-mobile-apps -->
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -63,22 +63,14 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					<ul class="slides">
 						<li>
 							<div class="banner-info">
-								<h3>" Excepteur sint occaecat cupidatat non proident, 
-									sunt in culpa qui officia deserunt</h3>
+								<h3> PESAN TIKET DISINI</h3>
 								</div>
 							</li>
 							<li>
 								<div class="banner-info">
-									<h3>" Sed ut perspiciatis unde omnis iste natus error sit 
-										voluptatem accusantium doloremque</h3>
+									<h3> Dezplane Booking Ticket</h3>
 									</div>
 								</li>
-								<li>
-									<div class="banner-info">
-										<h3>" At vero eos et accusamus et iusto odio 
-											dignissimos ducimus qui blanditiis</h3>
-										</div>
-									</li>
 								</ul>
 							</div>
 						</section>
