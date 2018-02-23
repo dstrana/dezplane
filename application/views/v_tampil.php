@@ -1,19 +1,19 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Membuat CRUD dengan CodeIgniter | MalasNgoding.com</title>
+	<title>CRUD</title>
 </head>
 <body>
-	<center><h1>Membuat CRUD dengan CodeIgniter | MalasNgoding.com</h1></center>
+	<center><h1>CRUD</h1></center>
 	<center><?php echo anchor('crud/tambah','Tambah Data'); ?></center>
 	<table style="margin:20px auto;" border="1">
 		<tr>
 			<th>No</th>
 			<th>Nama</th>
-			<th>Alamat</th>
-			<th>Pekerjaan</th>
-			<th>Action</th>
-			<th>Level</th>
+			<th>Password</th>
+			<th>fullname</th>
+			<th>level</th>
+			<th>Aksi</th>
 		</tr>
 		<?php 
 		$no = 1;

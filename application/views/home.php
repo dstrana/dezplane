@@ -1,399 +1,470 @@
+<!DOCTYPE HTML>
 <!--
-Author: W3layouts
-Author URL: http://w3layouts.com
-License: Creative Commons Attribution 3.0 Unported
-License URL: http://creativecommons.org/licenses/by/3.0/
+	Aesthetic by gettemplates.co
+	Twitter: http://twitter.com/gettemplateco
+	URL: http://gettemplates.co
 -->
-<!DOCTYPE html>
 <html>
-<head>
-<title>Globe Trotting a Travel Agency Category Flat Bootstrap Responsive Website Template | Home :: w3layouts</title>
-<!-- for-mobile-apps -->
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="keywords" content="Globe Trotting Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
-Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
-<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
-		function hideURLbar(){ window.scrollTo(0,1); } </script>
-<!-- //for-mobile-apps -->
-<link href="<?php echo url_assets;?>css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
-<link href="<?php echo url_assets;?>css/style.css" rel="stylesheet" type="text/css" media="all" />
-<!-- js -->
-<script src="<?php echo url_assets;?>js/jquery-1.11.1.min.js"></script>
-<!-- //js -->
-<link href='//fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
-<link href='//fonts.googleapis.com/css?family=Cinzel:400,700,900' rel='stylesheet' type='text/css'>
-</head>
+	<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Dezplane.tix</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Free HTML5 Website Template by GetTemplates.co" />
+	<meta name="keywords" content="free website templates, free html5, free template, free bootstrap, free website template, html5, css3, mobile first, responsive" />
+	<meta name="author" content="GetTemplates.co" />
+
+  	<!-- Facebook and Twitter integration -->
+	<meta property="og:title" content=""/>
+	<meta property="og:image" content=""/>
+	<meta property="og:url" content=""/>
+	<meta property="og:site_name" content=""/>
+	<meta property="og:description" content=""/>
+	<meta name="twitter:title" content="" />
+	<meta name="twitter:image" content="" />
+	<meta name="twitter:url" content="" />
+	<meta name="twitter:card" content="" />
+
+	<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet">
 	
-<body>
-<!-- banner -->
-	<div class="banner">
-		<div class="container">
-			<div class="logo">
-				<a href="index.html">Globe <span>Trotting</span></a>
+	<!-- Animate.css -->
+	<link rel="stylesheet" href="<?php echo url_assets;?>savory/css/animate.css">
+	<!-- Icomoon Icon Fonts-->
+	<link rel="stylesheet" href="<?php echo url_assets;?>savory/css/icomoon.css">
+	<!-- Themify Icons-->
+	<link rel="stylesheet" href="<?php echo url_assets;?>savory/css/themify-icons.css">
+	<!-- Bootstrap  -->
+	<link rel="stylesheet" href="<?php echo url_assets;?>savory/css/bootstrap.css">
+
+	<!-- Magnific Popup -->
+	<link rel="stylesheet" href="<?php echo url_assets;?>savory/css/magnific-popup.css">
+
+	<!-- Bootstrap DateTimePicker -->
+	<link rel="stylesheet" href="<?php echo url_assets;?>savory/css/bootstrap-datetimepicker.min.css">
+
+	<!-- Owl Carousel  -->
+	<link rel="stylesheet" href="<?php echo url_assets;?>savory/css/owl.carousel.min.css">
+	<link rel="stylesheet" href="<?php echo url_assets;?>savory/css/owl.theme.default.min.css">
+
+	<!-- Theme style  -->
+	<link rel="stylesheet" href="<?php echo url_assets;?>savory/css/style.css">
+
+	<!-- Modernizr JS -->
+	<script src="<?php echo url_assets;?>savory/js/modernizr-2.6.2.min.js"></script>
+	<!-- FOR IE9 below -->
+	<!--[if lt IE 9]>
+	<script src="js/respond.min.js"></script>
+	<![endif]-->
+
+	</head>
+	<body>
+		
+	<div class="gtco-loader"></div>
+	
+	<div id="page">
+
+	
+	<!-- <div class="page-inner"> -->
+	<nav class="gtco-nav" role="navigation">
+		<div class="gtco-container">
+			
+			<div class="row">
+				<div class="col-sm-4 col-xs-12">	
+					<div id="gtco-logo"><a href="index.html">Dezplane<em>.</em>tix</a></div>
+				</div>
+				<div class="col-xs-8 text-right menu-1">
+					<ul>
+						<li class="active"><a href="<?php echo base_url();?>">Home</a></li>
+						<li><a href="<?php echo base_url();?>crud/tambah">Register</a></li>
+						<li class="btn-cta"><a href="<?= base_url('index.php');?>/login"><span>Login</span></a></li>
+					</ul>	
+				</div>
 			</div>
-			<nav class="navbar navbar-default">
-				<!-- Brand and toggle get grouped for better mobile display -->
-				<div class="navbar-header">
-				  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-					<span class="sr-only">Toggle navigation</span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-				  </button>
+			
+		</div>
+	</nav>
+	
+	<header id="gtco-header" class="gtco-cover gtco-cover-md" role="banner" style="background-image: url(<?php echo base_url();?>asset/images/home.jpg)" data-stellar-background-ratio="0.5">
+		<div class="overlay"></div>
+		<div class="gtco-container">
+			<div class="row">
+				<div class="col-md-12 col-md-offset-0 text-left">
+					
+
+					<div class="row row-mt-15em">
+						<div class="col-md-7 mt-text animate-box" data-animate-effect="fadeInUp">
+							<span class="intro-text-small">Search your Airlines</span>
+							<h1 class="cursive-font" style="font-size:40px;">Traveling - it leaves you speechless,<br> then turns you into storyteller</h1>	
+						</div>
+						<div class="col-md-4 col-md-push-1 animate-box" data-animate-effect="fadeInRight">
+							<div class="form-wrap">
+								<div class="tab">
+									
+									<div class="tab-content">
+										<div class="tab-content-inner active" data-content="signup">
+											<h3 class="cursive-font">Search Flight</h3>
+											<form action="<?php echo base_url(); ?>welcome/cari" method="get">
+												<div class="row form-group">
+													<div class="col-md-12" >
+														<label for="activities">Keberangkatan</label>
+														<select name="rute_from" id="activities" class="form-control" style="color:black;">
+															<option style="color:black;" value="jakarta">Jakarta</option>
+															<option style="color:black;" value="surabaya">Surabaya</option>
+															<option style="color:black;" value="bandung">Bandung</option>
+															<option style="color:black;" value="yogyakarta">Yogyakarta</option>
+															<option style="color:black;" value="bali">Bali</option>
+															<option style="color:black;" value="pontianak">Pontianak</option>
+														</select>
+													</div>
+												</div>
+												<div class="row form-group">
+													<div class="col-md-12">
+														<label for="activities">Tujuan</label>
+														<select name="rute_to" id="activities" class="form-control">
+															<option style="color:black;" value="jakarta">Jakarta</option>
+															<option style="color:black;" value="surabaya">Surabaya</option>
+															<option style="color:black;" value="bandung">Bandung</option>
+															<option style="color:black;" value="yogyakarta">Yogyakarta</option>
+															<option style="color:black;" value="bali">Bali</option>
+															<option style="color:black;" value="pontianak">Pontianak</option>
+														</select>
+													</div>
+												</div>
+												<div class="row form-group">
+													<div class="col-md-12">
+														<label for="date-start">Date</label>
+														<input type="text" id="date" class="form-control">
+													</div>
+												</div>
+												<div class="row form-group">
+													<div class="col-md-12">
+														<label>Penumpang</label>
+														<input type="text" class="form-control">
+													</div>
+												</div>
+
+												<div class="row form-group">
+													<div class="col-md-12">
+														<input type="submit" class="btn btn-primary btn-block" value="Reserve Now">
+													</div>
+												</div>
+											</form>	
+										</div>
+
+										
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+							
+					
+				</div>
+			</div>
+		</div>
+	</header>
+
+	
+	
+	<div class="gtco-section">
+		<div class="gtco-container">
+			<div class="row">
+				<div class="col-md-8 col-md-offset-2 text-center gtco-heading">
+					<h2 class="cursive-font primary-color">Popular Dishes</h2>
+					<p>Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus alias autem provident. Odit ab aliquam dolor eius.</p>
+				</div>
+			</div>
+			<div class="row">
+
+				<div class="col-lg-4 col-md-4 col-sm-6">
+					<a href="images/img_1.jpg" class="fh5co-card-item image-popup">
+						<figure>
+							<div class="overlay"><i class="ti-plus"></i></div>
+							<img src="<?php echo url_assets;?>savory/images/img_1.jpg" alt="Image" class="img-responsive">
+						</figure>
+						<div class="fh5co-text">
+							<h2>Fresh Mushrooms</h2>
+							<p>Far far away, behind the word mountains, far from the countries Vokalia..</p>
+							<p><span class="price cursive-font">$19.15</span></p>
+						</div>
+					</a>
+				</div>
+				<div class="col-lg-4 col-md-4 col-sm-6">
+					<a href="images/img_2.jpg" class="fh5co-card-item image-popup">
+						<figure>
+							<div class="overlay"><i class="ti-plus"></i></div>
+							<img src="<?php echo url_assets;?>savory/images/img_2.jpg" alt="Image" class="img-responsive">
+						</figure>
+						<div class="fh5co-text">
+							<h2>Cheese and Garlic Toast</h2>
+							<p>Far far away, behind the word mountains, far from the countries Vokalia..</p>
+							<p><span class="price cursive-font">$20.99</span></p>
+						</div>
+					</a>
+				</div>
+				<div class="col-lg-4 col-md-4 col-sm-6">
+					<a href="images/img_3.jpg" class="fh5co-card-item image-popup">
+						<figure>
+							<div class="overlay"><i class="ti-plus"></i></div>
+							<img src="<?php echo url_assets;?>savory/images/img_3.jpg" alt="Image" class="img-responsive">
+						</figure>
+						<div class="fh5co-text">
+							<h2>Grilled Chiken Salad</h2>
+							<p>Far far away, behind the word mountains, far from the countries Vokalia..</p>
+							<p><span class="price cursive-font">$8.99</span></p>
+
+						</div>
+					</a>
 				</div>
 
-				<!-- Collect the nav links, forms, and other content for toggling -->
-				<div class="collapse navbar-collapse nav-wil" id="bs-example-navbar-collapse-1">
-					<nav class="stroke">
-						<ul class="nav navbar-nav">
-							<li class="active"><a href="index.html">Home</a></li>
-							<li><a href="about.html">About Us</a></li>
-							<li><a href="events.html">News & Events</a></li>
-							<li><a href="short-codes.html">Short Codes</a></li>
-							<li><a href="services.html">Services</a></li>
-							<li><a href="<?= base_url('index.php');?>/login">Login</a></li>
-						</ul>
-					</nav>
+
+				<div class="col-lg-4 col-md-4 col-sm-6">
+					<a href="images/img_4.jpg" class="fh5co-card-item image-popup">
+						<figure>
+							<div class="overlay"><i class="ti-plus"></i></div>
+							<img src="<?php echo url_assets;?>savory/images/img_4.jpg" alt="Image" class="img-responsive">
+						</figure>
+						<div class="fh5co-text">
+							<h2>Organic Egg</h2>
+							<p>Far far away, behind the word mountains, far from the countries Vokalia..</p>
+							<p><span class="price cursive-font">$12.99</span></p>
+						</div>
+					</a>
 				</div>
-				<!-- /.navbar-collapse -->
-			</nav>
-			<section class="slider">
-				<div class="flexslider">
-					<ul class="slides">
-						<li>
-							<div class="banner-info">
-								<h3>" Excepteur sint occaecat cupidatat non proident, 
-									sunt in culpa qui officia deserunt</h3>
-							</div>
-						</li>
-						<li>
-							<div class="banner-info">
-								<h3>" Sed ut perspiciatis unde omnis iste natus error sit 
-									voluptatem accusantium doloremque</h3>
-							</div>
-						</li>
-						<li>
-							<div class="banner-info">
-								<h3>" At vero eos et accusamus et iusto odio 
-									dignissimos ducimus qui blanditiis</h3>
-							</div>
-						</li>
-					</ul>
+
+				<div class="col-lg-4 col-md-4 col-sm-6">
+					<a href="images/img_5.jpg" class="fh5co-card-item image-popup">
+						<figure>
+							<div class="overlay"><i class="ti-plus"></i></div>
+							<img src="<?php echo url_assets;?>savory/images/img_5.jpg" alt="Image" class="img-responsive">
+						</figure>
+						<div class="fh5co-text">
+							<h2>Tomato Soup with Chicken</h2>
+							<p>Far far away, behind the word mountains, far from the countries Vokalia..</p>
+							<p><span class="price cursive-font">$23.10</span></p>
+						</div>
+					</a>
 				</div>
-			</section>
-				<!--FlexSlider-->
-					<link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" />
-					<script defer src="<?php echo url_assets;?>js/jquery.flexslider.js"></script>
-					<script type="text/javascript">
-					$(window).load(function(){
-					  $('.flexslider').flexslider({
-						animation: "slide",
-						start: function(slider){
-						  $('body').removeClass('loading');
-						}
-					  });
-					});
-				  </script>
-			<!--End-slider-script-->
-		</div>
-	</div>
-<!-- banner -->
-<!-- banner-input -->
-	<div class="banner-input">
-		<div class="container">
-			<form>
-				<input type="text" value="City, Region or Country" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'City, Region or Country';}" required="">
-				<select id="country" onchange="change_country(this.value)" class="frm-field required">
-					<option value="null">Traveller 1</option>
-					<option value="null">Traveller 2</option>         
-					<option value="AX">Traveller 3</option>
-					<option value="AX">Traveller 4</option>
-					<option value="AX">Traveller 5</option>
-					<option value="AX">Traveller 6</option>
-				</select>
-				<input class="date" id="datepicker" type="text" value="19/10/2015" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = '19/10/2015';}" required="">
-				<i class="glyphicon glyphicon-search" aria-hidden="true"></i>
-				<input type="submit" value=" " >
-				<div class="clearfix"> </div>
-			</form>
-				<!---strat-date-piker---->
-					<link rel="stylesheet" href="css/jquery-ui.css" />
-					<script src="<?php echo url_assets;?>js/jquery-ui.js"></script>
-					  <script>
-							  $(function() {
-								$( "#datepicker" ).datepicker();
-							  });
-					  </script>
-				<!---/End-date-piker---->
-		</div>
-	</div>
-<!-- //banner-input -->
-<!-- banner-bottom -->
-	<div class="banner-bottom">
-		<div class="container">
-			<div class="banner-bottom-grids">
-				<div class="col-md-3 banner-bottom-grid">
-					<img src="<?php echo url_assets;?>images/8.jpg" alt=" " class="img-responsive" />
+
+				<div class="col-lg-4 col-md-4 col-sm-6">
+					<a href="images/img_6.jpg" class="fh5co-card-item image-popup">
+						<figure>
+							<div class="overlay"><i class="ti-plus"></i></div>
+							<img src="<?php echo url_assets;?>savory/images/img_6.jpg" alt="Image" class="img-responsive">
+						</figure>
+						<div class="fh5co-text">
+							<h2>Salad with Crispy Chicken</h2>
+							<p>Far far away, behind the word mountains, far from the countries Vokalia..</p>
+							<p><span class="price cursive-font">$5.59</span></p>
+						</div>
+					</a>
 				</div>
-				<div class="col-md-3 banner-bottom-grid">
-					<img src="<?php echo url_assets;?>images/10.jpg" alt=" " class="img-responsive" />
-				</div>
-				<div class="col-md-3 banner-bottom-grid">
-					<img src="<?php echo url_assets;?>images/9.jpg" alt=" " class="img-responsive" />
-				</div>
-				<div class="col-md-3 banner-bottom-grid">
-					<img src="<?php echo url_assets;?>images/11.jpg" alt=" " class="img-responsive" />
-				</div>
-				<div class="clearfix"> </div>
+
 			</div>
 		</div>
 	</div>
-<!-- //banner-bottom -->
-<!-- banner-bottom1 -->
-	<div class="banner-bottom1">
-		<div class="container">
-			<h2>Latest Blog</h2>
-			<p class="iusto">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis 
-				praesentium voluptatum deleniti atque corrupti quos dolores.</p>
-			<div class="banner-bottom1-grids">
-				<div class="col-md-4 banner-bottom1-grid">
-					<div class="banner-bottom1-grid1">
-						<a href="single.html"><img src="<?php echo url_assets;?>images/1.jpg" alt=" " class="img-responsive" /></a>
-						<div class="banner-bottom1-grid1-left">
-							<a href="single.html">omnis dolor repellendus</a>
-						</div>
-						<div class="banner-bottom1-grid1-right">
-							<ul>
-								<li><a href="#"><span class="glyphicon glyphicon-bookmark" aria-hidden="true"></span> 50</a></li>
-								<li><a href="#"><span class="glyphicon glyphicon-heart" aria-hidden="true"></span> 150</a></li>
-							</ul>
-						</div>
-						<div class="clearfix"> </div>
+	
+	<div id="gtco-features">
+		<div class="gtco-container">
+			<div class="row">
+				<div class="col-md-8 col-md-offset-2 text-center gtco-heading animate-box">
+					<h2 class="cursive-font">Our Services</h2>
+					<p>Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus alias autem provident. Odit ab aliquam dolor eius.</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-4 col-sm-6">
+					<div class="feature-center animate-box" data-animate-effect="fadeIn">
+						<span class="icon">
+							<i class="ti-face-smile"></i>
+						</span>
+						<h3>Happy People</h3>
+						<p>Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus alias autem provident. Odit ab aliquam dolor eius.</p>
 					</div>
 				</div>
-				<div class="col-md-4 banner-bottom1-grid">
-					<div class="banner-bottom1-grid1">
-						<a href="single.html"><img src="<?php echo url_assets;?>images/3.jpg" alt=" " class="img-responsive" /></a>
-						<div class="banner-bottom1-grid1-left">
-							<a href="single.html">omnis dolor repellendus</a>
-						</div>
-						<div class="banner-bottom1-grid1-right">
-							<ul>
-								<li><a href="#"><span class="glyphicon glyphicon-bookmark" aria-hidden="true"></span> 50</a></li>
-								<li><a href="#"><span class="glyphicon glyphicon-heart" aria-hidden="true"></span> 150</a></li>
-							</ul>
-						</div>
-						<div class="clearfix"> </div>
+				<div class="col-md-4 col-sm-6">
+					<div class="feature-center animate-box" data-animate-effect="fadeIn">
+						<span class="icon">
+							<i class="ti-thought"></i>
+						</span>
+						<h3>Creative Culinary</h3>
+						<p>Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus alias autem provident. Odit ab aliquam dolor eius.</p>
 					</div>
 				</div>
-				<div class="col-md-4 banner-bottom1-grid">
-					<div class="banner-bottom1-grid1">
-						<a href="single.html"><img src="<?php echo url_assets;?>images/2.jpg" alt=" " class="img-responsive" /></a>
-						<div class="banner-bottom1-grid1-left">
-							<a href="single.html">omnis dolor repellendus</a>
-						</div>
-						<div class="banner-bottom1-grid1-right">
-							<ul>
-								<li><a href="#"><span class="glyphicon glyphicon-bookmark" aria-hidden="true"></span> 50</a></li>
-								<li><a href="#"><span class="glyphicon glyphicon-heart" aria-hidden="true"></span> 150</a></li>
-							</ul>
-						</div>
-						<div class="clearfix"> </div>
+				<div class="col-md-4 col-sm-6">
+					<div class="feature-center animate-box" data-animate-effect="fadeIn">
+						<span class="icon">
+							<i class="ti-truck"></i>
+						</span>
+						<h3>Food Delivery</h3>
+						<p>Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus alias autem provident. Odit ab aliquam dolor eius.</p>
 					</div>
 				</div>
-				<div class="clearfix"> </div>
+				
+
 			</div>
 		</div>
 	</div>
-<!-- //banner-bottom1 -->
-<!-- latest-posts -->
-	<div class="latest-posts">
-		<div class="container"> 
-			<h3>Latest News</h3>
-			<p class="iusto">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis 
-				praesentium voluptatum deleniti atque corrupti quos dolores.</p>
-			<div class="latest-posts-grids">
-				<div class="col-md-3 latest-posts-grid">
-					<div class="latest-posts-grid1">
-						<img src="<?php echo url_assets;?>images/4.jpg" alt=" " class="img-responsive" />
-						<div class="latest-posts-grid11">
-							<h5><a href="single.html">corrupti quos dolores</a></h5>
-							<h4>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis 
-								praesentium</h4>
-							<div class="latest-posts-grid11-left">
-								<p><span class="glyphicon glyphicon-calendar" aria-hidden="true"></span>25/01/2016</p>
-							</div>
-							<div class="latest-posts-grid11-right">
-								<a href="#"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span> 3 Comments</a>
-							</div>
-							<div class="clearfix"> </div>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-3 latest-posts-grid">
-					<div class="latest-posts-grid1">
-						<img src="<?php echo url_assets;?>images/5.jpg" alt=" " class="img-responsive" />
-						<div class="latest-posts-grid11">
-							<h5><a href="single.html">accusamus iusto odio</a></h5>
-							<h4>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis 
-								praesentium</h4>
-							<div class="latest-posts-grid11-left">
-								<p><span class="glyphicon glyphicon-calendar" aria-hidden="true"></span>30/01/2016</p>
-							</div>
-							<div class="latest-posts-grid11-right">
-								<a href="#"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span> 3 Comments</a>
-							</div>
-							<div class="clearfix"> </div>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-3 latest-posts-grid">
-					<div class="latest-posts-grid1">
-						<img src="<?php echo url_assets;?>images/6.jpg" alt=" " class="img-responsive" />
-						<div class="latest-posts-grid11">
-							<h5><a href="single.html">blanditiis prae ducimus</a></h5>
-							<h4>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis 
-								praesentium</h4>
-							<div class="latest-posts-grid11-left">
-								<p><span class="glyphicon glyphicon-calendar" aria-hidden="true"></span>5/02/2016</p>
-							</div>
-							<div class="latest-posts-grid11-right">
-								<a href="#"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span> 3 Comments</a>
-							</div>
-							<div class="clearfix"> </div>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-3 latest-posts-grid">
-					<div class="latest-posts-grid1">
-						<img src="<?php echo url_assets;?>images/1.jpg" alt=" " class="img-responsive" />
-						<div class="latest-posts-grid11">
-							<h5><a href="single.html">odio dignissimos iusto</a></h5>
-							<h4>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis 
-								praesentium</h4>
-							<div class="latest-posts-grid11-left">
-								<p><span class="glyphicon glyphicon-calendar" aria-hidden="true"></span>9/02/2016</p>
-							</div>
-							<div class="latest-posts-grid11-right">
-								<a href="#"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span> 3 Comments</a>
-							</div>
-							<div class="clearfix"> </div>
-						</div>
-					</div>
-				</div>
-				<div class="clearfix">  </div>
+
+
+	<div class="gtco-cover gtco-cover-sm" style="background-image: url(images/img_bg_1.jpg)"  data-stellar-background-ratio="0.5">
+		<div class="overlay"></div>
+		<div class="gtco-container text-center">
+			<div class="display-t">
+				<div class="display-tc">
+					<h1>&ldquo; Their high quality of service makes me back over and over again!&rdquo;</h1>
+					<p>&mdash; John Doe, CEO of XYZ Co.</p>
+				</div>	
 			</div>
 		</div>
 	</div>
-<!-- //latest-posts -->
-<!-- subscribe -->
-	<div class="subscribe">
-		<div class="container">
-			<div class="subscribe-left">
-				<h1>Subscribe Now</h1>
-				<p class="iusto">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis.</p>
+
+	<div id="gtco-counter" class="gtco-section">
+		<div class="gtco-container">
+
+			<div class="row">
+				<div class="col-md-8 col-md-offset-2 text-center gtco-heading animate-box">
+					<h2 class="cursive-font primary-color">Fun Facts</h2>
+					<p>Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus alias autem provident. Odit ab aliquam dolor eius.</p>
+				</div>
 			</div>
-			<div class="subscribe-right">
-				<p>But I must explain to you how all this mistaken idea of denouncing 
-					pleasure and praising pain was born and I will give you a complete account 
-					of the system, and expound the actual teachings of the great explorer of 
-					the truth.On the other hand, we denounce with righteous indignation.</p>
-			</div>
-			<div class="clearfix"> </div>
-			<div class="subscribe-pos">
-				<form>
-					<input type="email" value="Email" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Email';}" required="">
-					<input type="submit" value="Subscribe" >
-				</form>
+
+			<div class="row">
+				
+				<div class="col-md-3 col-sm-6 animate-box" data-animate-effect="fadeInUp">
+					<div class="feature-center">
+						<span class="counter js-counter" data-from="0" data-to="5" data-speed="5000" data-refresh-interval="50">1</span>
+						<span class="counter-label">Avg. Rating</span>
+
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6 animate-box" data-animate-effect="fadeInUp">
+					<div class="feature-center">
+						<span class="counter js-counter" data-from="0" data-to="43" data-speed="5000" data-refresh-interval="50">1</span>
+						<span class="counter-label">Food Types</span>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6 animate-box" data-animate-effect="fadeInUp">
+					<div class="feature-center">
+						<span class="counter js-counter" data-from="0" data-to="32" data-speed="5000" data-refresh-interval="50">1</span>
+						<span class="counter-label">Chef Cook</span>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6 animate-box" data-animate-effect="fadeInUp">
+					<div class="feature-center">
+						<span class="counter js-counter" data-from="0" data-to="1985" data-speed="5000" data-refresh-interval="50">1</span>
+						<span class="counter-label">Year Started</span>
+
+					</div>
+				</div>
+					
 			</div>
 		</div>
 	</div>
-<!-- //subscribe -->
-<!-- twitter-comment -->
-	<div class="twitter-comment">
-		<div class="container">
-			<div class="twitter-comment-twi">
-				<span></span>
+
+	
+
+	<div id="gtco-subscribe">
+		<div class="gtco-container">
+			<div class="row animate-box">
+				<div class="col-md-8 col-md-offset-2 text-center gtco-heading">
+					<h2 class="cursive-font">Subscribe</h2>
+					<p>Be the first to know about the new templates.</p>
+				</div>
 			</div>
-			<p>MS <a href="mailto:info@example.com">@sowjo</a> The <a href="mailto:info@example.com">@monostr</a>
-				Bundle - 1 week Only <a href="#">http//iuh/27Haweth.</a> Don't Pay Its Your $60.00 duration 2016-2030.
-				<span>26-01-2016 <a href="mailto:info@example.com">@sowjo.</a></span></p>
-		</div>
-	</div>
-<!-- //twitter-comment -->
-<!-- contact-us -->
-	<div class="contact-us">
-		<div class="container">
-			<h3>Contact Us</h3>
-			<div class="contact-us-grids">
-				<div class="col-md-4 contact-us-grid">
-					<i class="glyphicon glyphicon-flag" aria-hidden="true"></i>
-					<h4>About Us</h4>
-					<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-						accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae 
-						ab illo inventore veritatis et quasi architecto.</p>
-				</div>
-				<div class="col-md-3 contact-us-grid">
-					<i class="glyphicon glyphicon-map-marker" aria-hidden="true"></i>
-					<h4>Address</h4>
-					<p>Modo Center Address<span>+1(999)-908-0000</span>
-						123 Newyork City USA.<span>Support to: <a href="mailto:info@example.com">info@example.com</a></span></p>
-				</div>
-				<div class="col-md-5 contact-us-grid">
-					<i class="glyphicon glyphicon-envelope" aria-hidden="true"></i>
-					<h4>Get In Touch</h4>
-					<form>
-						<input type="text" value="Your Name" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Your Name';}" required="">
-						<input type="email" value="Your Email" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Your Email';}" required="">
-						<textarea type="text"  onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Message...';}" required="">Message...</textarea>
-						<input type="submit" value="Subscribe" >
+			<div class="row animate-box">
+				<div class="col-md-8 col-md-offset-2">
+					<form class="form-inline">
+						<div class="col-md-6 col-sm-6">
+							<div class="form-group">
+								<label for="email" class="sr-only">Email</label>
+								<input type="email" class="form-control" id="email" placeholder="Your Email">
+							</div>
+						</div>
+						<div class="col-md-6 col-sm-6">
+							<button type="submit" class="btn btn-default btn-block">Subscribe</button>
+						</div>
 					</form>
 				</div>
-				<div class="clearfix"> </div>
 			</div>
 		</div>
 	</div>
-<!-- //contact-us -->
-<!-- footer -->
-	<div class="footer">
-		<div class="container"> 
-			<div class="footer-bottom-left">
-				<p>&copy 2016 Globe Trotting. All rights reserved | Design by <a href="http://w3layouts.com/">W3layouts.</a></p>
+
+	<footer id="gtco-footer" role="contentinfo" style="background-image: url(images/img_bg_1.jpg)" data-stellar-background-ratio="0.5">
+		<div class="overlay"></div>
+		<div class="gtco-container">
+			<div class="row row-pb-md">
+
+				
+
+				
+				<div class="col-md-12 text-center">
+					<div class="gtco-widget">
+						<h3>Get In Touch</h3>
+						<ul class="gtco-quick-contact">
+							<li><a href="#"><i class="icon-phone"></i> +1 234 567 890</a></li>
+							<li><a href="#"><i class="icon-mail2"></i> info@GetTemplates.co</a></li>
+							<li><a href="#"><i class="icon-chat"></i> Live Chat</a></li>
+						</ul>
+					</div>
+					<div class="gtco-widget">
+						<h3>Get Social</h3>
+						<ul class="gtco-social-icons">
+							<li><a href="#"><i class="icon-twitter"></i></a></li>
+							<li><a href="#"><i class="icon-facebook"></i></a></li>
+							<li><a href="#"><i class="icon-linkedin"></i></a></li>
+							<li><a href="#"><i class="icon-dribbble"></i></a></li>
+						</ul>
+					</div>
+				</div>
+
+				<div class="col-md-12 text-center copyright">
+					<p><small class="block">&copy; 2016 Free HTML5. All Rights Reserved.</small> 
+						<small class="block">Designed by <a href="http://gettemplates.co/" target="_blank">GetTemplates.co</a> Demo Images: <a href="http://unsplash.com/" target="_blank">Unsplash</a></small></p>
+				</div>
+
 			</div>
-			<div class="footer-bottom-right">
-				<ul>
-					<li><a href="#" class="icon-button twitter"><i class="icon-twitter"></i><span></span></a></li>
-					<li><a href="#" class="icon-button google"><i class="icon-google"></i><span></span></a></li>
-					<li><a href="#" class="icon-button v"><i class="icon-v"></i><span></span></a></li>
-				</ul>
-			</div>
-			<div class="clearfix"> </div>
-		</div>
-	</div>
-<!-- //footer -->
-<!-- scroll_top_btn -->
-		<script type="text/javascript" src="<?php echo url_assets;?>js/move-top.js"></script>
-		<script type="text/javascript" src="<?php echo url_assets;?>js/easing.js"></script>
-	    <script type="text/javascript">
-			$(document).ready(function() {
+
 			
-				var defaults = {
-		  			containerID: 'toTop', // fading element id
-					containerHoverID: 'toTopHover', // fading element hover id
-					scrollSpeed: 1200,
-					easingType: 'linear' 
-		 		};
-				
-				
-				$().UItoTop({ easingType: 'easeOutQuart' });
-				
-			});
-		</script>
-		 <a href="#" id="toTop" style="display: block;"><span id="toTopHover" style="opacity: 1;"></span></a>
-<!--end scroll_top_btn -->
-<!-- for bootstrap working -->
-	<script src="<?php echo url_assets;?>js/bootstrap.js"></script>
-<!-- //for bootstrap working -->
-</body>
+
+		</div>
+	</footer>
+	<!-- </div> -->
+
+	</div>
+
+	<div class="gototop js-top">
+		<a href="#" class="js-gotop"><i class="icon-arrow-up"></i></a>
+	</div>
+	
+	<!-- jQuery -->
+	<script src="<?php echo url_assets;?>savory/js/jquery.min.js"></script>
+	<!-- jQuery Easing -->
+	<script src="<?php echo url_assets;?>savory/js/jquery.easing.1.3.js"></script>
+	<!-- Bootstrap -->
+	<script src="<?php echo url_assets;?>savory/js/bootstrap.min.js"></script>
+	<!-- Waypoints -->
+	<script src="<?php echo url_assets;?>savory/js/jquery.waypoints.min.js"></script>
+	<!-- Carousel -->
+	<script src="<?php echo url_assets;?>savory/js/owl.carousel.min.js"></script>
+	<!-- countTo -->
+	<script src="<?php echo url_assets;?>savory/js/jquery.countTo.js"></script>
+
+	<!-- Stellar Parallax -->
+	<script src="<?php echo url_assets;?>savory/js/jquery.stellar.min.js"></script>
+
+	<!-- Magnific Popup -->
+	<script src="<?php echo url_assets;?>savory/js/jquery.magnific-popup.min.js"></script>
+	<script src="<?php echo url_assets;?>savory/js/magnific-popup-options.js"></script>
+	
+	<script src="<?php echo url_assets;?>savory/js/moment.min.js"></script>
+	<script src="<?php echo url_assets;?>savory/js/bootstrap-datetimepicker.min.js"></script>
+
+
+	<!-- Main -->
+	<script src="<?php echo url_assets;?>savory/js/main.js"></script>
+
+	</body>
 </html>
+
